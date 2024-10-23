@@ -1,5 +1,5 @@
 {
-  "name": "@bcgov/nrs-ce-common-types",
+  "name": "nrs-ce-common-types",
   "version": "1.0.8",
   "description": "Common set of types and functions to be used over NRS projects",
   "main": "dist/index.js",
