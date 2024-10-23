@@ -1,6 +1,6 @@
 {
   "name": "@bcgov/nrs-ce-common-types",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Common set of types and functions to be used over NRS projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,8 +12,7 @@
   },
   "author": "Team Wolverine",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "publishConfig": {
     "@bcgov:registry": "https://npm.pkg.github.com"
   }
