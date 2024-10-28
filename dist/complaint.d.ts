@@ -1,23 +1,28 @@
 export interface BaseComplaint {
-    complaint_identifier: string;
-    detail_text: string;
-    caller_name: string;
-    caller_address: string;
-    caller_email: string;
-    caller_phone_1: string;
-    caller_phone_2: string;
-    caller_phone_3: string;
+    id: string;
+    details: string;
+    name: string;
+    address: string;
+    email: string;
+    phone1: string;
+    phone2: string;
+    phone3: string;
     location: {
         type: string;
         coordinates: Array<number>;
     };
-    location_summary_text: string;
-    location_detailed_text: string;
-    reported_by_code: string;
-    reported_by_other_text: string;
-    incident_utc_datetime?: Date;
-    create_user_id: string;
-    update_user_id: string;
-    webeoc_identifier: string;
+    locationSummary: string;
+    locationDetail: string;
+    reportedBy?: string;
+    reportedByOther: string;
+    incidentDateTime?: Date;
+    createdBy: string;
+    updatedBy: string;
+    webeocId: string;
     isPrivacyRequested: string;
+    status: string;
+    ownedBy: string;
+    reportedOn: Date;
+    updatedOn: Date;
+    complaintMethodReceivedCode: string;
 }

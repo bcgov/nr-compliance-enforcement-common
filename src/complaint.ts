@@ -20,4 +20,9 @@ export interface BaseComplaint {
   updatedBy: string;
   webeocId: string;
   isPrivacyRequested: string;
+  status: string;
+  ownedBy: string;
+  reportedOn: Date;
+  updatedOn: Date;
+  complaintMethodReceivedCode: string;
 }
