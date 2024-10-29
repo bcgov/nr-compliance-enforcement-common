@@ -29,6 +29,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run:
           npm version minor -m "[ci skip] v%s"
+          env:
+            NODE_AUTH_TOKEN: ${{secrets.npm_token}}
           #- run: npm ci
       - run: npm publish
         env:
