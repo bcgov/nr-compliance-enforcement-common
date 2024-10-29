@@ -25,4 +25,5 @@ export interface BaseComplaint {
   reportedOn: Date;
   updatedOn: Date;
   complaintMethodReceivedCode: string;
+  referenceNumber: string;
 }
