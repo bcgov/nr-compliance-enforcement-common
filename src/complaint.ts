@@ -26,4 +26,5 @@ export interface BaseComplaint {
   updatedOn: Date;
   complaintMethodReceivedCode: string;
   referenceNumber: string;
+  parkGuid: string;
 }
