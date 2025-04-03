@@ -1,6 +1,6 @@
 {
   "name": "nrs-ce-common-types",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Common set of types and functions to be used over NRS projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
