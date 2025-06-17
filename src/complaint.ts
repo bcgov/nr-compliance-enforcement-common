@@ -27,4 +27,5 @@ export interface BaseComplaint {
   complaintMethodReceivedCode: string;
   referenceNumber: string;
   parkGuid?: string;
+  type: string;
 }
